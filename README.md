@@ -80,45 +80,45 @@ The **Barangay Limpapa Information System** is a **web-based application** built
    # Copy .env.example to .env and configure
    cp .env.example .env
    
-  # Edit .env
-  DB_CONNECTION=mysql
-  DB_HOST=localhost
-  DB_PORT=3306
-  DB_DATABASE=limpapa
-  DB_USERNAME=root
-  DB_PASSWORD=821437
+# Edit .env
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=limpapa
+DB_USERNAME=root
+DB_PASSWORD=821437
 
-  # Generate application key
-  php artisan key:generate
+# Generate application key
+php artisan key:generate
 
-  # Run migrations
-  php artisan migrate
+# Run migrations
+php artisan migrate
 
-  # Start the server
-  php artisan serve
+# Start the server
+php artisan serve
 
-  # Access the application at http://localhost:8000
+# Access the application at http://localhost:8000
 
-  ## **Database Setup**
-  # Create a MySQL database named limpapa in phpMyAdmin
-  # Access phpMyAdmin at http://localhost/phpmyadmin
-  # Click "New", enter "limpapa" as database name, click "Create"
-  php artisan migrate
+## **Database Setup**
+# Create a MySQL database named limpapa in phpMyAdmin
+# Access phpMyAdmin at http://localhost/phpmyadmin
+# Click "New", enter "limpapa" as database name, click "Create"
+php artisan migrate
 
-  ## **Usage**
-  # Admin: Log in to access the main dashboard with charts, statistics, and tracking features
-  # Client/Foreign Users: Register and log in to access tailored dashboards for barangay services
-  # Analytics: View resident data, service metrics, and complaint statuses via graphs and labeled circular progress bars
+## **Usage**
+# Admin: Log in to access the main dashboard with charts, statistics, and tracking features
+# Client/Foreign Users: Register and log in to access tailored dashboards for barangay services
+# Analytics: View resident data, service metrics, and complaint statuses via graphs and labeled circular progress bars
 
-  ## **Contributing**
-  # Contributions are welcome! Fork the repository, create a feature branch, submit a pull request
-  # For Laravel-specific contributions, refer to: https://laravel.com/docs/contributions
+## **Contributing**
+# Contributions are welcome! Fork the repository, create a feature branch, submit a pull request
+# For Laravel-specific contributions, refer to: https://laravel.com/docs/contributions
 
-  ## **Code of Conduct**
-  # Review and abide by the Laravel Code of Conduct: https://laravel.com/docs/contributions#code-of-conduct
+## **Code of Conduct**
+# Review and abide by the Laravel Code of Conduct: https://laravel.com/docs/contributions#code-of-conduct
 
-  ## **Security Vulnerabilities**
-  # Email taylor@laravel.com for security vulnerabilities
+## **Security Vulnerabilities**
+# Email taylor@laravel.com for security vulnerabilities
 
-  ## **License**
-  # Barangay Limpapa Information System, built on Laravel, licensed under MIT License: https://opensource.org/licenses/MIT
+## **License**
+# Barangay Limpapa Information System, built on Laravel, licensed under MIT License: https://opensource.org/licenses/MIT
