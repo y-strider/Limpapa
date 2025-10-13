@@ -79,7 +79,7 @@ The **Barangay Limpapa Information System** is a **web-based application** built
 
    # Copy .env.example to .env and configure
    cp .env.example .env
-
+   
   # Edit .env
   DB_CONNECTION=mysql
   DB_HOST=localhost
