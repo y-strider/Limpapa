@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.philatlas.com/mindanao/r09/zamboanga-city/limpapa.html" target="_blank">
-    <img src="https://www.philatlas.com/images/philatlas-logo.png" width="400" alt="PhilAtlas Logo">
+    <img src="https://www.philatlas.com/images/barangays-light.png" width="400" alt="PhilAtlas Barangays Map">
   </a>
 </p>
 
