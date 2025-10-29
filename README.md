@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+<p align="center">
+  <a href="https://www.philatlas.com/mindanao/r09/zamboanga-city/limpapa.html" target="_blank">
+    <img src="https://www.philatlas.com/images/philatlas-logo.png" width="400" alt="PhilAtlas Logo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.philatlas.com/mindanao/r09/zamboanga-city/limpapa.html">
+    <img src="https://img.shields.io/badge/Location-Limpapa%2C%20Zamboanga%20City-blue" alt="Location Badge">
+  </a>
+  <a href="https://www.philatlas.com/mindanao/r09/zamboanga-city/limpapa.html">
+    <img src="https://img.shields.io/badge/Region-Region%209%20%28Zamboanga%20Peninsula%29-green" alt="Region Badge">
+  </a>
+  <a href="https://www.philatlas.com/mindanao/r09/zamboanga-city/limpapa.html">
+    <img src="https://img.shields.io/badge/Province-Zamboanga%20City-red" alt="Province Badge">
+  </a>
+</p>
+
 # Barangay Limpapa Information System
 
 A comprehensive web-based information system for Barangay Limpapa management, built with Laravel framework. This system integrates all aspects of barangay administration including resident management, services, complaints, and more.
