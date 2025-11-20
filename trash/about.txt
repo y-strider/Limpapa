@@ -1,0 +1,161 @@
+Barangay Limpapa Information System
+
+Version 1
+
+web bases
+includes its all about Software Engineering and Research
+so all Global Data in Barangay System integrate existing with real and sample SQL databases creation requires for requirations
+
+graphs and  Circular Progress Bar w/ labels
+
+system will be use
+
+System Names Based on Statement of the Problem:
+
+Resident Information Management System
+Barangay Services Management System
+Certificate and Permit Issuance System
+Complaint Tracking and Resolution System
+Purok and Household Distribution System
+Community Health and Sanitation System
+Incident and Disaster Reporting System
+Voter Registration and Election System
+Public Financial and Budget Tracking System
+Barangay Event Management System
+Public Feedback and Complaint Handling System
+Barangay Document Archiving System
+Digital Communication and Notification System
+Barangay Security and Surveillance System
+Waste Management and Collection System
+
+Separated User/Client/Foreign Register, Login, Dashboard
+with Admin Main chart, statistics, and other system like Tracking
+
+General Dashboard
+
+10-digit PSGC
+0907216008
+Name
+Limpapa
+Correspondence Code
+097216008
+Geographic Level
+Bgy
+Old names
+N/A
+City Class
+N/A
+"Income Classification (DOF DO No. 074.2024)"
+N/A
+"Urban / Rural (based on 2020 CPH)"
+R
+2020 Population
+514
+Status
+N/A
+using laravel
+desktop app
+
+
+make this simple ease and comfort development design
+
+latests tool uses laravel or make it webapp and xammp
+
+hostname = localhost
+username = root
+password = 821437
+database = limpapa
+
+main goal is admin dashboard and
+
+graphs and  Circular Progress Bar w/ labels
+
+Separated User/Client/Foreign Register, Login, Dashboard
+with Admin Main chart, statistics, and other system like Tracking
+
+Todo
+
+# TODO List for Barangay Limpapa Information System
+
+## Project Overview
+- Web-based system using Laravel framework
+- XAMPP for local development (PHP, MySQL)
+- Database: limpapa (hostname=localhost, username=root, password=821437)
+- Focus on admin dashboard with graphs, circular progress bars with labels, and statistics
+- Integrate PSGC data (0907216008 for Limpapa)
+- Role-based access: User, Client, Foreign, Admin
+- 15 subsystems for comprehensive barangay management
+
+## 1. Setup and Configuration
+- [✔] Install Composer and Laravel
+- [✔] Create new Laravel project (limpapa-system)
+- [✔] Configure XAMPP for PHP and MySQL
+- [✔] Set up database in .env file (hostname=localhost, username=root, password=821437, database=limpapa)
+- [✔] Run initial migrations
+- [✔] Install Chart.js for graphs and progress bars
+
+## 2. Authentication and User Roles
+- [✔] Install Laravel Breeze or Jetstream for auth
+- [✔] Create User model with roles (User, Client, Foreign, Admin)
+- [✔] Implement role-based middleware
+- [✔] Create login/register views for different roles
+- [✔] Set up separate dashboards for each role
+
+## 3. Database Migrations and Models
+- [✔] Create migrations for all 15 subsystems:
+  - [✔] Resident Information Management System
+  - [✔] Barangay Services Management System
+  - [✔] Certificate and Permit Issuance System
+  - [✔] Complaint Tracking and Resolution System
+  - [✔] Purok and Household Distribution System
+  - [✔] Community Health and Sanitation System
+  - [✔] Incident and Disaster Reporting System
+  - [✔] Voter Registration and Election System
+  - [✔] Public Financial and Budget Tracking System
+  - [✔] Barangay Event Management System
+  - [✔] Public Feedback and Complaint Handling System
+  - [✔] Barangay Document Archiving System
+  - [✔] Digital Communication and Notification System
+  - [✔] Barangay Security and Surveillance System
+  - [✔] Waste Management and Collection System
+- [✔] Create corresponding Eloquent models for each subsystem
+- [✔] Seed sample data including PSGC data (0907216008 for Limpapa, 2020 Population: 514, etc.)
+- [✔] Ensure data integrity for real and sample SQL databases
+
+## 4. Controllers and Routes
+- [✔] Create controllers for each subsystem
+- [✔] Define routes with role-based access
+- [✔] Implement CRUD operations for each module
+- [✔] Add tracking and notification logic in controllers
+
+## 5. Views and Frontend
+- [✔] Set up Blade templates with Bootstrap/Tailwind for responsive design
+- [✔] Create general dashboard with basic stats
+- [✔] Create role-specific dashboards (User, Client, Foreign, Admin)
+- [✔] Implement admin main dashboard with:
+  - [✔] Charts and statistics overview
+  - [✔] Graphs using Chart.js for data visualization
+  - [✔] Circular progress bars with labels for key metrics
+- [✔] Add views for each subsystem with data display and forms
+- [✔] Ensure ease and comfort in development design
+
+## 6. Features Implementation
+- [✔] Integrate PSGC data (10-digit PSGC: 0907216008, Name: Limpapa, etc.)
+- [✔] Implement tracking systems for complaints, incidents, etc.
+- [✔] Add notification system for communications
+- [✔] Document archiving functionality
+- [✔] Add security and surveillance features
+- [✔] Implement waste management tracking
+- [✔] Add public feedback handling
+
+## 7. Testing and Deployment
+- [✔] Test all modules locally with XAMPP
+- [✔] Ensure data integrity and security across subsystems
+- [✔] Optimize for performance, especially graphs and progress bars
+- [✔] Final review and bug fixes
+- [✔] Prepare for deployment as web app
+
+git add .
+git commit -m "ReadMe"
+git pull origin main --rebase
+git push origin main --force
